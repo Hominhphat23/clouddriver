@@ -197,3 +197,21 @@ const tokenResponse = await axios({
     `code=${requestToken}`,
   headers: {
     accept: 'application/json'
+Selector	Description	WARP mode required
+User email	Email address of a user
+user-name@company.com	Gateway with WARP
+User group emails	Email address of an IdP group
+contractors@company.com	Gateway with WARP
+User group IDs	ID of an IdP group
+12jf495bhjd7893ml09o	Gateway with WARP
+User group names	Name of an IdP group
+developers	Gateway with WARP
+Operating system	Operating system of the device
+macOS	Any mode
+Operating system version	OS version specified in Semver format
+1.2.0	Any mode
+Managed network	Network location of the device	Any mode
+SAML Attributes	Attribute name and value from a SAML IdP	Gateway with WARP
+Comparison operators
+user-name@company.com
+$ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout example.key -out example.pem -subj "/CN=example.com" -addext "subjectAltName=DNS:example.com"
