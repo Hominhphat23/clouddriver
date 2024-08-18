@@ -215,3 +215,23 @@ SAML Attributes	Attribute name and value from a SAML IdP	Gateway with WARP
 Comparison operators
 user-name@company.com
 $ openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes -keyout example.key -out example.pem -subj "/CN=example.com" -addext "subjectAltName=DNS:example.com"
+_eventsCount: 2,
+[Symbol(shapeMode)]: true,
+[Symbol(kCapture)]: false,
+[Symbol(kHeaders)]: {
+'content-type': 'application/json; charset=utf8',
+'content-length': '0',
+connection: 'keep-alive',
+date: 'Sat, 17 Aug 2024 05:19:33 GMT',
+'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
+'apigw-requestid': 'cozj2hdwSK4EJsg=',
+'x-cache': 'Error from cloudfront',
+via: '1.1 748bf2e250893e1ba5433de84d1e52d4.cloudfront.net (CloudFront)',
+'x-amz-cf-pop': 'ORD58-P4',
+'x-amz-cf-id': '5fmG-hz2OdyHIZPhC8ab4x_6HZ70qRzY9JLmOgnY6Yh4p_xhZfXRjQ=='
+},
+[Symbol(kHeadersCount)]: 20,
+[Symbol(kTrailers)]: null,
+[Symbol(kTrailersCount)]: 0
+https://ranbel-tunnel-changelog.cloudflare-docs-7ou.pages.dev/cloudflare-one/changelog/browser-isolation/
+https://ranbel-tunnel-changelog.cloudflare-docs-7ou.pages.dev/cloudflare-one/changelog/dex/https://ranbel-tunnel-changelog.cloudflare-docs-7ou.pages.dev/cloudflare-one/changelog/casb/https://ranbel-tunnel-changelog.cloudflare-docs-7ou.pages.dev/cloudflare-one/changelog/warp/
