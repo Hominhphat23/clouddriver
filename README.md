@@ -332,3 +332,18 @@ https://ranbel-tunnel-changelog.cloudflare-docs-7ou.pages.dev/cloudflare-one/cha
      showFailedStandardStreams true 
    } 
  }
+
+@targos pushed 12 commits.
+
+b4cd81b deps: update V8 to 12.9.202.18
+013f7d8 build: reset embedder string to "-node.0"
+40113d1 src: update NODE_MODULE_VERSION to 131
+affda4e deps: always define V8_EXPORT_PRIVATE as no-op
+ddf2ae4 deps: disable V8 concurrent sparkplug compilation
+d9b1876 deps: patch V8 to avoid duplicated zlib symbol
+763a6b9 deps: patch V8 to support compilation with MSVC
+4d662bb deps: fix FP16 bitcasts.h
+4e012d4 deps: always define V8_NODISCARD as no-op
+f00716f deps: patch V8 to support older Clang versions
+d2250da deps: V8: cherry-pick 01a47f3ffff2
+d174634 deps: V8: cherry-pick 97199f686e2f
